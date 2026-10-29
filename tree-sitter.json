@@ -1,0 +1,40 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "clojure_orchard",
+      "camelcase": "ClojureOrchard",
+      "title": "Clojure",
+      "scope": "source.clojure",
+      "file-types": [
+        "clj"
+      ],
+      "injection-regex": "^clojure_orchard$",
+      "class-name": "TreeSitterClojureOrchard"
+    }
+  ],
+  "metadata": {
+    "version": "0.2.9",
+    "license": "CC0-1.0",
+    "description": "Parser for Clojure files",
+    "authors": [
+      {
+        "name": "sogaiu"
+      }
+    ],
+    "links": {
+      "repository": "https://codeberg.org/grammar-orchard/tree-sitter-clojure-orchard",
+      "upstream": "https://github.com/sogaiu/tree-sitter-clojure",
+      "github_mirror": "https://github.com/grammar-orchard/tree-sitter-clojure-orchard"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
